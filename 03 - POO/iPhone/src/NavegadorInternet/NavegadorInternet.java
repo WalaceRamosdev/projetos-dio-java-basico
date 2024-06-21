@@ -1,6 +1,7 @@
 package NavegadorInternet;
 
-public class NavegadorInternet {
+public class NavegadorInternet implements ExibirPagina, AtualizarPagina, AdicionarNovaAba {
+
     public void exibirPagina () {
         System.out.println("Exibindo uma página na internet.");
     }

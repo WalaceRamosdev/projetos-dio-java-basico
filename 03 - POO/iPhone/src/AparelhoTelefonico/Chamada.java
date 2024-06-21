@@ -10,7 +10,7 @@ public class Chamada implements Atendendo, CorreioDeVoz, Ligacao {
         System.out.println("Iniciando Correio de Voz");
     }
 
-    public void ligar() {
+    public  void ligar() {
         System.out.println("Iniciando uma ligacao");
     }
     
