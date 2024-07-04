@@ -1,0 +1,41 @@
++--------------------------------------+
+|              ReprodutorMusical       |
+|--------------------------------------|
+| + tocar()                            |
+| + pausar()                           |
+| + selecionarMusica(String musica)    |
++--------------------------------------+
+
++--------------------------------------+
+|              AparelhoTelefonico      |
+|--------------------------------------|
+| + ligar(String numero)               |
+| + atender()                          |
+| + iniciarCorreioVoz()                |
++--------------------------------------+
+
++--------------------------------------+
+|              NavegadorInternet       |
+|--------------------------------------|
+| + exibirPagina(String url)           |
+| + adicionarNovaAba()                 |
+| + atualizarPagina()                  |
++--------------------------------------+
+
+             |                |                   |
+             |                |                   |
+             |                |                   |
+             v                v                   v
++--------------------------------------+--------------------------------------+
+|                                     iPhone                                 |
+|--------------------------------------|--------------------------------------|
+| - modelo: String                     | + tocar()                           |
+| - numeroSerie: String                | + pausar()                          |
+|                                      | + selecionarMusica(String musica)    |
+|                                      | + ligar(String numero)               |
+|                                      | + atender()                          |
+|                                      | + iniciarCorreioVoz()                |
+|                                      | + exibirPagina(String url)           |
+|                                      | + adicionarNovaAba()                 |
+|                                      | + atualizarPagina()                  |
++--------------------------------------+
